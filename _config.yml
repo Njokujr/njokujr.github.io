@@ -1,0 +1,27 @@
+# Site settings
+title: My Software Engineering Projects
+description: Showcase of my software engineering projects.
+baseurl: "" # Set this if your site is hosted at a subpath, e.g. /my-project
+theme: jekyll-theme-minimal # Choose your preferred Jekyll theme here
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+plugins:
+  - jekyll-sitemap
+
+# Navigation links
+nav_links:
+  - title: About
+    url: /about
+  - title: Projects
+    url: /projects
+  - title: Contact
+    url: /contact
+
+# Custom variables
+author:
+  name: Victory Njoku
+  email: njokuvictory
