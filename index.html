@@ -1,82 +1,303 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
+  <title>BlogApp - Unleash Your Creativity</title>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Software Engineering Projects</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {width: 120px;background: #222;}
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {margin-left: 120px}
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    </style>
+  </head>
+<body class="w3-grey">
 
-<body>
-  <header>
-    <nav>
-      <div class="container">
-        <h1 class="logo">Software Engineering Projects</h1>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+    <nav lass="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+        <img src="" style="width:100%">
+      <div class="logo">
+        <h1>BlogApp</h1>
       </div>
+      <ul>
+        <li><a href="#features" class="w3-bar-item w3-button w3-padding-large w3-hover-black">Features</a></li>
+        <li><a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">About</a></li>
+        <li><a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">Contact</a></li>
+      </ul>
     </nav>
   </header>
+  
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Unleash Your Creativity with BlogApp</h1>
+      <p>Share your thoughts, stories, and expertise with the world.</p>
+      <a href="http://njokublog.tech/register/" class="cta-button">Get Started</a>
+    </div>
+  </section>
+  
+  <section id="features" class="features">
+      <h2><b>KEY FEATURES</b></h2>
 
-  <section id="hero">
+    <div class="feature">
+        <i class="fas fa-lock"></i>
+      <h3>CREATE ENGAGING ARTICLES</h3>
+    </div>
+
     <div class="container">
-      <h1>Welcome to my Software Engineering Projects</h1>
-      <p>Explore my latest projects and see what I've been working on.</p>
-      <a href="#projects" class="btn">View Projects</a>
+        <img src="media\Screenshot (19).png" alt="Login and Signup" class="feature-image" width="90%">
+    </div>
+    <div class="container">
+        <h3>DESCRIPTION</h3>      
+        <ul>
+          <li>
+            The feature provides a user-friendly interface that empowers bloggers to express themselves effectively. 
+            Users can leverage a variety of formatting options such as bold, italic, underline, headings, bullet points, 
+            and more to enhance the visual presentation of their articles. They can also embed images, videos, and other 
+            multimedia elements seamlessly into their content.
+          </li>
+          <li>
+            By offering the ability to create engaging articles, BlogApp encourages bloggers to bring their content to life,
+             captivating their readers' attention and delivering an immersive reading experience. Whether it's a thought-provoking 
+             opinion piece, a captivating travelogue, or a comprehensive tutorial, this feature empowers bloggers to make their articles
+              visually appealing and compelling, fostering a connection with their audience.
+
+          </li><br>
+          With the "Create Engaging Articles" feature, BlogApp enables bloggers to showcase their creativity and deliver captivating 
+          content that stands out in the crowded blogosphere.
+        </ul>
+
+        <br>
+        <a href="http://njokublog.tech/post/new/" class="cta-button">View Feature</a>
+
+    </div>
+        <!--<div>
+            <video width="60%" autoplay muted>
+            <source src="media\DIDI's Blog - Google Chrome 2023-06-08 00-21-54.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+        </div>-->
+        
+      
+    <div class="feature">
+        <i class="fas fa-lock"></i>
+        <h3>SECURE USER AUTHENTICATION</h3>
+        <br>
+    </div>
+    <div class="container">
+        <img src="media\Screenshot (20).png" alt="secure user authentication" class="feature-image" width="90%">
+        <br>
+    </div>
+    <div class="container">
+        <h3>DESCRIPTION</h3>
+            <ul>
+            <li>User Registration: Users can easily sign up for a new account by providing their essential details such as name, 
+                email address, and password. The registration process ensures data privacy and security, with password encryption 
+                and validation to protect user information.</li><br>
+            </ul>
+
+            <li> Account Authentication: Once registered, users can log into their accounts using their email and password. The authentication
+                system verifies the credentials and grants access to the user's personalized account, enabling them to explore and interact 
+                with various features of BlogApp.</li><br>
+                
+            <li>Personalized User Experience: By logging in, users can access personalized features and settings tailored to their preferences.
+                They can customize their profile, manage account information, and track their activities within the application.</li><br>
+                
+                <li>Secure Sessions: BlogApp employs industry-standard security measures, including session management, to ensure secure user sessions.
+                    This protects against unauthorized access and helps maintain the privacy and integrity of user data.</li><br>
+                
+            <li>Account Recovery: In the case of forgotten passwords, the Login and Signup feature provides a password recovery option. Users can 
+                reset their passwords by following a secure account recovery process, typically involving email verification or security questions.</li><br>
+            </ul>
+                
+                The Login and Signup feature in BlogApp streamlines the user experience by providing a secure and user-friendly authentication system. 
+                It enables users to engage with the application, access personalized features, and contribute to the vibrant blogging community with confidence and ease.
+            
+              <br>
+        <a href="http://njokublog.tech/register/" class="cta-button">View Feature</a>
+
+    </div>
+    
+        <!--<div>
+            <video width="60%" autoplay muted>
+            <source src="media\DIDI's Blog - Google Chrome 2023-06-08 01-06-05.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+        </div>-->
+    </div>
+    <div class="feature">
+        <i class="fas fa-comments"></i>
+        <h3>UPDATE USER PROFILE</h3>
+        <br>
+    </div>
+    <div class="container">
+        <img src="media\Screenshot (18).png" alt="updating user profile" class="feature-image" width="90%">
+        <br>
+    </div>
+    <div class="container">
+        <h3>DESCRIPTION</h3>
+        <ul>
+          <li>
+            The update user profile feature allows users to edit and update their personal information and preferences within the BlogApp platform. 
+            Users can modify their profile picture, display name, bio, contact information, and any other relevant details.
+          </li>
+        </ul><br>
+        <ol>
+        <li>
+          Profile Picture Update:
+        </li>
+        
+            <ul>
+              <li>
+                  Users can upload a new profile picture or select an existing image from their device.
+              </li>
+              <li>
+                  The platform should provide options to crop, resize, or adjust the uploaded image for better display.
+              </li>
+            </ul>
+        
+        <li>
+          Display Name Modification:
+        </li>
+        
+            <ul>
+              <li>
+                Users can change their display name to reflect their preferred identity.
+              </li>
+              <li>
+                The platform should validate the name and ensure it meets any specified requirements 
+                (e.g., length restrictions, character limitations).
+              </li>
+            </ul>
+        
+        <li>
+          Contact Information Update:
+        </li>
+            <ul>
+              <li>
+                Users can modify their contact details such as email address, phone number, or social media links.
+              </li>
+              <li>
+                The platform should validate the contact information to ensure it follows the appropriate format 
+                (e.g., email validation, phone number validation).
+              </li>
+            </ul>
+        </ol>
+    </div>
+    <div class="container">
+        <h3>BENEFITS:</h3>
+            <ul>
+            <li>Personalization: Users can tailor their profile to reflect their current interests, experiences, and preferences.</li>
+            <li>Professionalism: Updating profile information allows users to maintain an up-to-date and professional online presence.</li>
+            <li>Customization: Users can control the level of information they share with others and manage their privacy settings 
+              according to their comfort.</li>
+            </ul>
+            Overall, the update user profile feature empowers users to curate their online identity and create a personalized experience 
+            within the BlogApp platform.
+            <br>
+        <a href="http://njokublog.tech/profile/" class="cta-button">View Feature</a>
+    </div>
+    
+
+  </section>
+  
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About BlogApp</h2>
+      <p>BlogApp was born out of a passion for writing and the desire to provide a platform that 
+        empowers bloggers to share their thoughts and stories with the world.</p>
+      
+      <p>As a team of developers at Holberton School, we embarked on this project with the goal of 
+        creating a user-friendly and feature-rich blogging application. Inspired by our own experiences 
+        as bloggers and the need for an intuitive platform, we poured our creativity and technical skills into developing BlogApp.</p>
+      
+      <p>Throughout the development process, we carefully considered the needs of bloggers, 
+        incorporating features such as a rich text editor, powerful search and filtering options, 
+        and an interactive commenting system. We strived to create an application that not only facilitates 
+        content creation but also encourages user engagement and community building.</p>
+      
+      <p>BlogApp is not just a project for our coursework; it is a portfolio project that showcases our abilities 
+        as developers and our passion for building meaningful applications. We are proud to present this project as 
+        part of our journey at Holberton School.</p>
+      
+      <p>Connect with our team members:</p>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/victorynjoku/">LinkedIn - Victory Njoku</a></li>
+        <li> <a class="fa fa-twitter w3-hover-opacity" href="https://twitter.com/didi_njoku/"></a></li>
+        <li><a class="fa fa-linkedin w3-hover-opacity" href="https://www.linkedin.com/in/victorynjoku/"></a></li>
+      </ul>
+      
+      <a href="https://github.com/Njokujr/django_project" class="cta-button">View on GitHub</a>
     </div>
   </section>
 
-  <section id="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique sollicitudin eros, vel sagittis neque
-        cursus
-        vitae. Phasellus id bibendum nulla. In rhoncus aliquam velit, at finibus purus fermentum ac. Aliquam erat
-        volutpat.
-        Curabitur mattis, neque non auctor gravida, nulla lorem tempus enim, nec aliquet lectus elit ut quam.</p>
-    </div>
-  </section>
+  <section id="contact" class="contact">
+  <!-- Contact Section -->
+    <div class="w3-padding-64 w3-content w3-text-white" id="contact">
+        <h2 class="w3-text-light-black">Contact Me</h2>
+        <hr style="width:200px" class="w3-opacity">
 
-  <section id="projects">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="project">
-        <h3>Project 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique sollicitudin eros, vel sagittis neque
-          cursus vitae.</p>
-      </div>
-      <div class="project">
-        <h3>Project 2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique sollicitudin eros, vel sagittis neque
-          cursus vitae.</p>
-      </div>
-      <div class="project">
-        <h3>Project 3</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique sollicitudin eros, vel sagittis neque
-          cursus vitae.</p>
-      </div>
-    </div>
-  </section>
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Nigeria</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +2349057157514</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: njokuvictory216@gmail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
 
-  <section id="contact">
-    <div class="container">
-      <h2>Contact Me</h2>
-      <p>If you'd like to discuss a project or have any questions, feel free to get in touch.</p>
-      <form>
-        <input type="text" placeholder="Victory Njoku">
-        <input type="email" placeholder="njokuvictory216@gmail.com">
-        <textarea placeholder="Message"></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
-  </section>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2023 Your Name. All rights reserved.</p>
-    </div>
- 
+  <script>
+    // Script to open and close sidebar
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+        }
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+            }
+            // Modal Image Gallery
+            function onClick(element) {
+                document.getElementById("img01").src = element.src;
+                document.getElementById("modal01").style.display = "block";
+                var captionText = document.getElementById("caption");
+                captionText.innerHTML = element.alt;
+                }
+    // Smooth scrolling on anchor links
+    const links = document.querySelectorAll('nav ul li a');
+
+    for (const link of links) {
+      link.addEventListener('click', smoothScroll);
+    }
+
+    function smoothScroll(e) {
+      e.preventDefault();
+
+      const targetId = e.target.getAttribute('href');
+      const targetSection = document.querySelector(targetId);
+
+      window.scrollTo({
+        top: targetSection.offsetTop,
+        behavior: 'smooth'
+      });
+    }
+  </script>
+</body>
+</html>
